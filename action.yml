@@ -1,0 +1,9 @@
+name: 'Automatic tagging'
+description: 'Automatic adding tags according to Gitflow'
+inputs:
+  gh_token:
+    description: 'GitHub Token'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
